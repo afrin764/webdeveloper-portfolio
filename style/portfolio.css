@@ -56,6 +56,7 @@ nav{
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+    margin-left: 120px;
 }
 nav ul {
     display: flex;
@@ -88,6 +89,7 @@ nav li a {
    .banner-name{
     font-size: 80px;
     font: bold;
+    
 
    }
 .banner-profile-pic{
@@ -135,4 +137,47 @@ main{
     box-shadow: 0px 6px 50px 0px #e9e9e9;
     margin-top: 130px;
     margin-bottom: 130px;
+}
+
+
+/* education bar */
+.resume-container {
+    display: flex;
+    
+    gap: 24px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.button-centre {
+    
+    margin-top: 50px;
+    align-content: center;
+}
+.resume hr{
+    margin: 30px;
+}
+/*footer */
+.footer{
+    padding: 130px 230px;
+}
+.footer-main {
+    display: flex;
+    gap:150px
+    padding: 130px 230px;
+}
+.footer-column {
+    width: 50%;
+}
+footer input[type="text"] ,footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color:white;
+    display: block;
+    width: 80%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
